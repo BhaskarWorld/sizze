@@ -17,6 +17,12 @@ module.exports = {
       },
     },
     extend: {
+      screens: {
+        // 360×800, 390×844, 414×896, 375×667, 412×732
+        "3xs": "360px",
+        "2xs": "390px",
+        xs: "412px",
+      },
       colors: {
         "vivid-orange": {
           50: "#fdc8b6",
